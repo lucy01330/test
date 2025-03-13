@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+
+    <style>
+        /*폰트*/
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+      /*전체 스타일* 페이지 크기 1920*1080로 하기*/
+
+html,body{
+    font-family: "TTTtangsbudaejjigaeB";
+    margin-right:auto;
+    margin-left:auto;
+    background-position:center;
+    aspect-ratio: 16/9;
+    background-color: #f9f7f7;
+    width: 1000px;
+    height: 600px;
+
+}
+
+
+
+/*첫 번째 페이지*/
+        div.intro{
+            border: #FFF 2px solid;
+            aspect-ratio: 16/9;
+            width: 1000px;
+            height: 600px;
+            margin: 20px;
+
+            background-image: url(./ppage.png);
+            background-size:103%; 
+            background-position: center;
+            background-repeat:no-repeat;
+ 
+        }
+
+        .intro>h1{
+            font-size:50px;
+            display:flex;
+        justify-content: center;
+        align-items: bottom;
+        gap:20px;
+        transform: translate(0,100%);
+        }
+
+        .intro-container-overtext{
+            position:absolute;
+            top:60%
+            bottom:20px;
+            transform: translate(0,150%);
+        }
+
+        .intro-container{
+        display:flex;
+        justify-content: center;
+        align-items: bottom;
+        gap:20px;
+        transform: translate(0,400%);
+        margin:45px;
+        background-color: aliceblue;
+        border-radius: 50px;
+    }
+
+    
+
+/*두 번째 페이지*/
+        div.name{
+            border: #FFF 2px solid;
+            width: 1000px;
+            height: 600px;
+            margin: 20px;
+
+            background-image: url(./ppage.png);
+            background-size:103%; 
+            background-position: center;
+            background-repeat:no-repeat;
+
+        }
+
+        .name>h1{
+            display:flex;
+            justify-content: center;
+            align-items: bottom;
+            gap:20px;
+            transform: translate(0,80%);
+            font-size:40px;
+        }
+
+        .name1-container{
+            font-size:20px;
+            display:flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap:130px;
+            transform: translate(0,80%);/*수정필요*/
+            margin:60px;
+        background-color: aliceblue;
+        border-radius: 70px;
+        }
+
+        .name2-container{
+            display:flex;
+            justify-content:center;
+            align-items: flex-end;
+            gap: 60px;
+            transform: translate(0%,0%); /*수정필요*/
+            
+        }
+
+/*세 번째 페이지*/
+        div.Abilities{
+            border: #FFF 2px solid;
+            width: 1000px;
+            height: 600px;
+            margin: 20px;
+
+            background-image: url(./ppage.png);
+            background-size:103%; 
+            background-position: center;
+            background-repeat:no-repeat;
+
+        }
+/*네 번째 페이지*/
+        div.experience{
+            border: #FFF 2px solid;
+            width: 1000px;
+            height: 600px;
+            margin: 20px;
+            
+
+            background-image: url(./ppage.png);
+            background-size:103%; 
+            background-position: center;
+            background-repeat:no-repeat;
+
+        }
+
+        /*experience*/
+        .experience>h2{
+            transform: translate(0%,100%);
+            font-size:50px;
+        }
+
+        /*1번 경험*/
+        .experience1-container>h2{
+            transform:translate(8%,100%);
+            font-size:24px;
+        }
+        .experience1-container>p{
+            transform: translate(7%,410%);
+            font-size:14px;
+        }
+
+/*2번 경험*/
+        .experience2-container>h2{
+            transform: translate(50%,-300%);
+            font-size:24px;
+        }
+
+        .experience2-container>p{
+            transform: translate(49%,250%);
+            font-size:14px;
+        }
+/*마지막 페이지*/
+        div.last{
+            border: #f9f7f7 2px solid;
+            width: 1000px;
+            height: 600px;
+            margin: 20px;
+            
+            background-image: url(./ppage.png);
+            background-size:103%; 
+            background-position: center;
+            background-repeat:no-repeat;
+            
+
+        }
+        .last>h1{
+            transform: translate(5%,250%);
+            font-size:65px;
+        }
+        .last>h2{
+            transform: translate(18%,690%);
+            font-size:20px;
+        }
+        .last>img{
+            transform: translate(130%,-15%);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!--첫 번째 페이지-->
+        
+        <div class="intro">
+        <h1><p style="text-align: center">나를 소개합니다</p></h1>
+        <div class="intro-container">
+            <p>박준희</p>
+            <p>Email.com</p>
+            <p>Tel. 010.2385.8771</p>
+        </div>
+        </div>
+
+        <!--두 번째 페이지-->
+        <div class="name">
+            <h1><p style="text-align: center">박준희</p></h1>
+
+            <div class="name1-container">
+         <h3>Personality</h3>
+         <h3>Career skills</h3>
+         <h3>TMI</h3>
+        </div>
+
+         <div class="name2-container">
+            <ul>
+            <p><li>새로운 도전</li></p>
+            <p><li>긍정적인 마인드</li></p>
+            <p><li>해맑음</li></p>
+            </ul>
+
+           
+            <ul>
+            <p><li>국제통상학과 전공</li></p>
+            <p><li>C언어, R스튜디오 경험</li></p>
+            <p><li>자신 있게 영어 회화 가능</li></p>
+            </ul>
+
+            
+            <ul>
+            <p><li>2001.03.30</li></p>
+            <p><li>취미: 영화보기기</li></p>
+            <p><li>강아지 한마리</li></p>
+            </ul>
+        </div>   
+        </div>
+        </div>
+
+        <!--세 번째 페이지-->
+        <div class="Abilities">
+            <h2>Abilities</h2>
+            <div class="Abilities1-container">
+            <ul>
+                <li>프레젠테이션 : 60% 
+                    <p>사람들 앞에 나서서 발표하는 것에 대해 두려워하지 않는 편입니다.</p></li>
+                <li>영어 : 80%
+                    <p>좋아하는 것과 잘하는 것이 일치하고 싶어 꾸준히 노력하였습니다.</p></li>
+                   </ul>
+                   </div>
+
+                   <div class:"Abilities2-container"> <!--왜이럴까-->
+                 <ul>
+                <li>실행력 : 70%
+                    <p>생각한 것이 있으면 곧장 실행하려고 노력하는 편입니다.</p></li> 
+                성장력 : 75%
+                    <li><p>노력하며 성장하는 것을 좋아합니다.</p></li>      
+            </ul>
+            </div>
+            </div>
+
+            <!--네 번째 페이지-->
+            <div class="experience">
+                <h2><p style="text-align: center">Experience</p></h2>
+
+                <div class="experience1-container">
+                <h2>1.GTEP 활동</h2>
+                <p>산업통산자원부 주관하에 약 1년간 활동하는 지역특화 청년 무역 <br>
+                     전문가 양성 프로그램에 참여하여 해외 전시회 통역 및 업무 지원,<br>
+                     전자상거래 Shopee 실습 경험 등을 하였습니다.</p>
+                </div>
+
+                <div class="experience2-container">
+                <h2>2.교환학생 생활</h2>
+                <p>6개월 동안 스페인에서 교환학생 생활을 하면서 다양한 사람들과 어울리며<br>
+                    많은 나라를 여행 다니며 새로운 경험들을 하였습니다.</p>
+                </div>
+                </div>
+
+                   <!--마지막 페이지-->
+                   <div class="last">
+                    <h1>thank you!</h1>
+                    <h2>잘 부탁드립니다 ~</h2>
+                <img src="./tank.png" alt="tank" width="388px" height="350px">
+                    
+                   </div>
+            
+            
+
+    </div>
+</html>
